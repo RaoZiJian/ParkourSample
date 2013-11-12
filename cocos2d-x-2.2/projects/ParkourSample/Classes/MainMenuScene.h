@@ -22,10 +22,12 @@ public:
     bool init();
     
     void startBtnCallFunc(CCObject* pSender);
+
 private:
 	 CCMenu* mainMenu;
+	 CCLayer* menuLayer;
 	 int loadingCount;
-	  void dataLoaded(float percent);
+	 void dataLoaded(float percent);
 	  enum
 	{
 		ACTION_RUN = 0,

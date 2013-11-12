@@ -11,9 +11,11 @@
 
 #include "cocos2d.h"
 #include "cocos-ext.h"
+#include "GameScenePlayLayer.h"
 USING_NS_CC;
 
 using namespace extension;
+class GameScenePlayLayer;
 
 class GameScene : public cocos2d::CCScene
 {
@@ -22,6 +24,7 @@ public:
     bool init();
 	static GameScene * shareGameScene();
 	static GameScene * newGameScene();
+    GameScenePlayLayer* playLayer;
 };
 
 #endif
