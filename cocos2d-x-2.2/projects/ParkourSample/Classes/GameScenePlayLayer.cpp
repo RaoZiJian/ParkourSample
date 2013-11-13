@@ -41,9 +41,9 @@ void GameScenePlayLayer::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)
 void GameScenePlayLayer::running()
 {
 	CCArmature *armature = NULL;
-	armature = CCArmature::create("CMRun");
+	armature = CCArmature::create("ChenXiaoGeRunning");
 	armature->setScale(0.6);
-	armature->getAnimation()->play("Running");
+	armature->getAnimation()->play("running");
 	armature->getAnimation()->setSpeedScale(2.0f);
 	armature->setAnchorPoint(ccp(0.5,0));
 	armature->setPosition(ccp(playerX+30, playerY));

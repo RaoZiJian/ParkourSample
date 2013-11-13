@@ -79,7 +79,7 @@ void MainMenuScene::dataLoaded(float percent)
 	{
 		case ACTION_RUN:
 		{
-			CCArmatureDataManager::sharedArmatureDataManager()->addArmatureFileInfoAsync("animations/CMRun.ExportJson",this, schedule_selector(MainMenuScene::dataLoaded));
+			CCArmatureDataManager::sharedArmatureDataManager()->addArmatureFileInfoAsync("animations/ChenXiaoGeRunning.ExportJson",this, schedule_selector(MainMenuScene::dataLoaded));
 		}
 		break;
 	
