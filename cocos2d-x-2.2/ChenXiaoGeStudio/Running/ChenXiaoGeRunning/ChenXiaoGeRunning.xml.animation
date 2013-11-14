@@ -2,10 +2,10 @@
 <AnimationProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Version>0.0.0.0</Version>
   <Name>ChenXiaoGeRunning</Name>
-  <ProjectDir>D:\RaoZiJian\github\cocos2d-x-2.2\ChenXiaoGeStudio\Running\ChenXiaoGeRunning</ProjectDir>
+  <ProjectDir>C:\Users\cocos2d-x\Desktop\ParkourSample\cocos2d-x-2.2\ChenXiaoGeStudio\Running\ChenXiaoGeRunning</ProjectDir>
   <JsonFileName>ChenXiaoGeRunning.json</JsonFileName>
-  <Resources>D:\RaoZiJian\github\cocos2d-x-2.2\ChenXiaoGeStudio\Running\ChenXiaoGeRunning\Resources</Resources>
-  <JsonFolder>D:\RaoZiJian\github\cocos2d-x-2.2\ChenXiaoGeStudio\Running\ChenXiaoGeRunning\Json</JsonFolder>
+  <Resources>C:\Users\cocos2d-x\Desktop\ParkourSample\cocos2d-x-2.2\ChenXiaoGeStudio\Running\ChenXiaoGeRunning\Resources</Resources>
+  <JsonFolder>C:\Users\cocos2d-x\Desktop\ParkourSample\cocos2d-x-2.2\ChenXiaoGeStudio\Running\ChenXiaoGeRunning\Json</JsonFolder>
   <JsonList />
   <ResourceFileList>
     <string>ChenXiaoGeRunning0.plist</string>

@@ -42,7 +42,7 @@ void GameScenePlayLayer::running()
 {
 	CCArmature *armature = NULL;
 	armature = CCArmature::create("ChenXiaoGeRunning");
-	armature->setScale(0.6);
+	armature->setScale(0.3);
 	armature->getAnimation()->play("running");
 	armature->getAnimation()->setSpeedScale(2.0f);
 	armature->setAnchorPoint(ccp(0.5,0));

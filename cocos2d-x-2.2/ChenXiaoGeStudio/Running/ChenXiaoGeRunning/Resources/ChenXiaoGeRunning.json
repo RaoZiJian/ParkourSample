@@ -6,7 +6,7 @@
       "name": "ChenXiaoGeRunning",
       "bone_data": [
         {
-          "name": "body",
+          "name": "runbody",
           "parent": "",
           "x": 0.33329319953918457,
           "y": -19.551122665405273,
@@ -20,7 +20,7 @@
           "effectbyskeleton": true,
           "display_data": [
             {
-              "name": "body.png",
+              "name": "runBody.png",
               "displayType": 0,
               "skin_data": [
                 {
@@ -37,9 +37,9 @@
         },
         {
           "name": "leftUpperArm",
-          "parent": "body",
+          "parent": "runbody",
           "x": 43.144214630126953,
-          "y": 7.6824750900268555,
+          "y": 7.6824731826782227,
           "z": 12,
           "cX": 1.0,
           "cY": 1.0,
@@ -69,7 +69,7 @@
           "name": "leftLowerArm",
           "parent": "leftUpperArm",
           "x": 34.769073486328125,
-          "y": 2.7383548513171263E-06,
+          "y": 2.87902366835624E-06,
           "z": 11,
           "cX": 1.0,
           "cY": 1.0,
@@ -97,9 +97,9 @@
         },
         {
           "name": "rightThigh",
-          "parent": "body",
+          "parent": "runbody",
           "x": -3.886218786239624,
-          "y": 2.2129848003387451,
+          "y": 2.2129843235015869,
           "z": 7,
           "cX": 1.0,
           "cY": 1.0,
@@ -186,10 +186,10 @@
           ]
         },
         {
-          "name": "head",
-          "parent": "body",
-          "x": 51.402420043945312,
-          "y": -0.10795032978057861,
+          "name": "runhead",
+          "parent": "runbody",
+          "x": 51.402412414550781,
+          "y": -0.10795038938522339,
           "z": 6,
           "cX": 1.0,
           "cY": 1.0,
@@ -200,7 +200,7 @@
           "effectbyskeleton": true,
           "display_data": [
             {
-              "name": "head.png",
+              "name": "runHead.png",
               "displayType": 0,
               "skin_data": [
                 {
@@ -217,9 +217,9 @@
         },
         {
           "name": "leftThigh",
-          "parent": "body",
+          "parent": "runbody",
           "x": 2.2669618129730225,
-          "y": 4.8847174644470215,
+          "y": 4.8847165107727051,
           "z": 5,
           "cX": 1.0,
           "cY": 1.0,
@@ -249,7 +249,7 @@
           "name": "leftShank",
           "parent": "leftThigh",
           "x": 30.3822021484375,
-          "y": 4.0618128776550293,
+          "y": 4.0618124008178711,
           "z": 4,
           "cX": 1.0,
           "cY": 1.0,
@@ -278,8 +278,8 @@
         {
           "name": "leftFoot",
           "parent": "leftShank",
-          "x": 24.162670135498047,
-          "y": -0.40677395462989807,
+          "x": 24.162668228149414,
+          "y": -0.40677362680435181,
           "z": 3,
           "cX": 1.0,
           "cY": 1.0,
@@ -307,9 +307,9 @@
         },
         {
           "name": "rightUpperArm",
-          "parent": "body",
-          "x": 45.60382080078125,
-          "y": 2.7091403007507324,
+          "parent": "runbody",
+          "x": 45.603813171386719,
+          "y": 2.7091398239135742,
           "z": 2,
           "cX": 1.0,
           "cY": 1.0,
@@ -338,8 +338,8 @@
         {
           "name": "rightLowerArm",
           "parent": "rightUpperArm",
-          "x": 30.586246490478516,
-          "y": -0.19294543564319611,
+          "x": 30.586250305175781,
+          "y": -0.1929456889629364,
           "z": 1,
           "cX": 1.0,
           "cY": 1.0,
@@ -628,7 +628,7 @@
               ]
             },
             {
-              "name": "body",
+              "name": "runbody",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -1176,7 +1176,7 @@
               ]
             },
             {
-              "name": "head",
+              "name": "runhead",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -1976,7 +1976,7 @@
   ],
   "texture_data": [
     {
-      "name": "body",
+      "name": "runBody",
       "width": 38.0,
       "height": 60.0,
       "pX": 0.5,
@@ -2006,7 +2006,7 @@
       ]
     },
     {
-      "name": "head",
+      "name": "runHead",
       "width": 111.0,
       "height": 124.0,
       "pX": 0.4954955,
