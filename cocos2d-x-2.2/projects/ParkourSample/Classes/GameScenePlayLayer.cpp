@@ -72,8 +72,8 @@ void GameScenePlayLayer::backgroundInit()
 	backgroundCopy = CCSprite::create("pictures/background.png");
 	shop = CCSprite::create("pictures/shop.png");
 	sun = CCSprite::create("pictures/sun.png");
-	ground = CCSprite::create("pictures/snowGroound.png");;
-    groundCopy = CCSprite::create("pictures/snowGroound.png");
+	ground = CCSprite::create("pictures/snowGround.png");;
+    groundCopy = CCSprite::create("pictures/snowGround.png");
 
 	background->setAnchorPoint(ccp(0,0));
 	backgroundCopy->setAnchorPoint(ccp(0,0));
