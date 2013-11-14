@@ -24,16 +24,28 @@ class GameScenePlayLayer : public cocos2d::CCLayer
 	void running();
     void runJump();
 	void death();
+	void backgroundInit();
 
 	CCArmature *chenxiaogeArmature;
 	CCPoint chenxiaogePosition;
+
+private:
+
+	void update(float dt);
+	void resetBackground();
     virtual bool ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
     virtual void ccTouchMoved(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
     virtual void ccTouchEnded(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
 
+	CCSprite* background;
+	CCSprite* backgroundCopy;
+	CCSprite* shop;
+	CCSprite* sun;
+	CCSprite* ground;
+	CCSprite* groundCopy;
+
+	CCSize winSize;
  	int actionNum;
-	float playerX;
-	float playerY;
 
 	enum
 	{
