@@ -85,8 +85,6 @@ void MainMenuScene::dataLoaded(float percent)
 	
 	default:
 		{
-
-			CCScene * newscene  = CCScene::create();
 			GameScene* gameScene =  GameScene::newGameScene();
 			CCTransitionFade* gameSceneTransition =  CCTransitionFade::create(0.5, gameScene, ccWHITE);
 			CCDirector::sharedDirector()->replaceScene(gameSceneTransition);

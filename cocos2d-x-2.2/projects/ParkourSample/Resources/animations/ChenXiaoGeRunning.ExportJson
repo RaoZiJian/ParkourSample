@@ -20,7 +20,7 @@
           "effectbyskeleton": true,
           "display_data": [
             {
-              "name": "runBody.png",
+              "name": "runbody.png",
               "displayType": 0,
               "skin_data": [
                 {
@@ -39,7 +39,7 @@
           "name": "leftUpperArm",
           "parent": "runbody",
           "x": 43.144214630126953,
-          "y": 7.6824731826782227,
+          "y": 7.68247127532959,
           "z": 12,
           "cX": 1.0,
           "cY": 1.0,
@@ -99,7 +99,7 @@
           "name": "rightThigh",
           "parent": "runbody",
           "x": -3.886218786239624,
-          "y": 2.2129843235015869,
+          "y": 2.2129838466644287,
           "z": 7,
           "cX": 1.0,
           "cY": 1.0,
@@ -188,8 +188,8 @@
         {
           "name": "runhead",
           "parent": "runbody",
-          "x": 51.402412414550781,
-          "y": -0.10795038938522339,
+          "x": 51.40240478515625,
+          "y": -0.10795045644044876,
           "z": 6,
           "cX": 1.0,
           "cY": 1.0,
@@ -200,7 +200,7 @@
           "effectbyskeleton": true,
           "display_data": [
             {
-              "name": "runHead.png",
+              "name": "runhead.png",
               "displayType": 0,
               "skin_data": [
                 {
@@ -219,7 +219,7 @@
           "name": "leftThigh",
           "parent": "runbody",
           "x": 2.2669618129730225,
-          "y": 4.8847165107727051,
+          "y": 4.8847155570983887,
           "z": 5,
           "cX": 1.0,
           "cY": 1.0,
@@ -249,7 +249,7 @@
           "name": "leftShank",
           "parent": "leftThigh",
           "x": 30.3822021484375,
-          "y": 4.0618124008178711,
+          "y": 4.0618119239807129,
           "z": 4,
           "cX": 1.0,
           "cY": 1.0,
@@ -308,8 +308,8 @@
         {
           "name": "rightUpperArm",
           "parent": "runbody",
-          "x": 45.603813171386719,
-          "y": 2.7091398239135742,
+          "x": 45.603805541992188,
+          "y": 2.709139347076416,
           "z": 2,
           "cX": 1.0,
           "cY": 1.0,
@@ -338,8 +338,8 @@
         {
           "name": "rightLowerArm",
           "parent": "rightUpperArm",
-          "x": 30.586250305175781,
-          "y": -0.1929456889629364,
+          "x": 30.586254119873047,
+          "y": -0.19294698536396027,
           "z": 1,
           "cX": 1.0,
           "cY": 1.0,
@@ -1976,7 +1976,7 @@
   ],
   "texture_data": [
     {
-      "name": "runBody",
+      "name": "runbody",
       "width": 38.0,
       "height": 60.0,
       "pX": 0.5,
@@ -2006,7 +2006,7 @@
       ]
     },
     {
-      "name": "runHead",
+      "name": "runhead",
       "width": 111.0,
       "height": 124.0,
       "pX": 0.4954955,

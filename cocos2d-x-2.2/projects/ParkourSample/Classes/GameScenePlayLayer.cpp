@@ -68,6 +68,8 @@ void GameScenePlayLayer::backgroundInit()
 	float winWidth = winSize.width;
 	float winHeight = winSize.height;
     
+	CCParallaxNode* bgParallax = CCParallaxNode::create();
+
 	background = CCSprite::create("pictures/background.png");
 	backgroundCopy = CCSprite::create("pictures/background.png");
 	shop = CCSprite::create("pictures/shop.png");

@@ -42,7 +42,7 @@
 				<key>offsetY</key>
 				<real>0</real>
 			</dict>
-			<key>runBody.png</key>
+			<key>runbody.png</key>
 			<dict>
 				<key>width</key>
 				<integer>38</integer>
@@ -118,7 +118,7 @@
 				<key>offsetY</key>
 				<real>0</real>
 			</dict>
-			<key>runHead.png</key>
+			<key>runhead.png</key>
 			<dict>
 				<key>width</key>
 				<integer>111</integer>
